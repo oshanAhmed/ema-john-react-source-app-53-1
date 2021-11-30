@@ -19,7 +19,7 @@ const useCart =  products =>{
             setCart(storeCart);
         }
     },[products])
-    return [cart];
+    return [cart, setCart];
 }
 
 export default useCart;
